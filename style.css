@@ -1,5 +1,6 @@
 body {
-    font-family: system-ui, -apple-system,
+    font-family: "Droid Serif",
+        system-ui, -apple-system,
         BlinkMacSystemFont,
         'Segoe UI',
         Roboto,
@@ -8,9 +9,29 @@ body {
         Cantarell,
         'Open Sans',
         'Helvetica Neue', sans-serif;
-        
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
 }
+
 a {
     text-decoration: none;
     color: inherit;
+}
+@font-face {
+    font-family: "Droid Serif";
+    src: url("fonts/DroidSerif.woff2")format("woff2"),
+        url("fonts/DroidSerif.woff") format("woff");
+    font-weight: 400;
+   
+}
+
+@font-face {
+    font-family: "Droid Serif";
+    src: url("fonts/DroidSerif-Bold.woff2")format("woff2"),
+        url("fonts/DroidSerif-Bold.woff") format("woff");
+    font-weight: 700;
+}
+h1, h2 {
+    font-family: "Droid Serif";
 }
